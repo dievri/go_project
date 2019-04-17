@@ -3,5 +3,21 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello, wicked world!")
+	// Arrays
+
+	//var fruitArr [2]string
+	//
+	//// Assign values
+	//
+	//fruitArr[0] = "Apple"
+	//fruitArr[1] = "Orange"
+
+	//fruitArr := [2]string{"Cappa", "Bubba"}
+	//
+	//fmt.Println(fruitArr)
+	//fmt.Println(fruitArr[1])
+
+	fruitSlice := []string{"Apple", "Orange", "Super"}
+	fmt.Println(len(fruitSlice))
+	fmt.Println(fruitSlice[1:2])
 }
